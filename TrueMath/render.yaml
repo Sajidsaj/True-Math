@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: truemath-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TRUEMATH_WEB_DEPLOYMENT
+        value: "true"
+      - key: TRUEMATH_IPC_HOST
+        value: "0.0.0.0"
+      - key: TRUEMATH_IPC_PORT
+        value: "9999"
+      - key: TRUEMATH_DASHBOARD_HOST
+        value: "0.0.0.0"
+      - key: TRUEMATH_DASHBOARD_PORT
+        value: "8080"
+      - key: PORT
+        value: "8080"
+      - key: TRUEMATH_ALLOWED_ORIGINS
+        value: "*"
