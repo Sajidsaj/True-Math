@@ -20,6 +20,6 @@ To deliver heavy mathematical crunching and bulletproof logic verification witho
 
 ## 📧 Contact Support
 If you are a user needing help, or a Microsoft Certification tester requiring more deployment details, please contact us directly:
-* **Support Email:** support@truemathinnovator.com *(Note: Agar aapka koi aur email hai to aap isko badal sakte hain)*
+* **Support Email:** dijasniassuh8@gmail.com.
 * **Official Release:** Exclusively available via the Microsoft Store.
 
